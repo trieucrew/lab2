@@ -11,12 +11,46 @@
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
+h1{
+     font-size: 50px;
+     margin-top: 2px;
+     margin-bottom: 2px;
+}
+
 body {
      border: 1px dotted gray;
      padding: 20px;
 }
+.headertop{
+     text-align: center;
+     background-color: #EEEEEE;
+     margin-bottom: 0px;
+}
+
+.headertop p{
+     margin-top: 2px;
+     padding-bottom: 10px;    
+}
+.projects {
+     background-color: gray;
+     padding: 10px;
+     margin-bottom: 20px;    
+}
+
+.projects p{
+     font-variant: small-caps;
+     margin-top: 0;
+     margin-bottom: 3px;
+}
+
+img .thumbnail {
+     width: 50px;
+     height: 100px;
+     padding: 10px;
+}
 
 .jumbotron {
+     text-align: center;
 	position: relative;
 	background: none;
 }
